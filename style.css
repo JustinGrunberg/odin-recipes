@@ -1,4 +1,13 @@
+html {
+    background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(./images/photo-1606787366850-de6330128bfc.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 .odin-recipes {
     font-family: "Courier New", Courier, monospace;
+
 
 }
