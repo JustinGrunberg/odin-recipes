@@ -1,4 +1,4 @@
-.homepage {
+html {
     background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(./images/photo-1606787366850-de6330128bfc.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -9,20 +9,20 @@
 /*General*/
 
 h1,
-a {
+h2 {
     font-family: "freight-big-pro";
     color: white;
+    text-align: center;
+    overflow-wrap: break-world;
+    letter-spacing: -6.5px;
+    font-size: 200px;
+}
 
+h2 {
+    font-size: 100px; 
 }
 
 /*Homepage*/
-
-.odin-recipes {
-    letter-spacing: -6.5px;
-    font-size: 200px;
-    text-align: center;
-    overflow-wrap: break-world;
-}
 
 .recipe-list{
     list-style: none;
@@ -35,6 +35,8 @@ a {
 }
 
 .recipe-list a{
+    font-family: "freight-big-pro";
+    color: white;
     text-decoration: none;
     font-size: 40px;
     font-weight:100;
