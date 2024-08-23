@@ -1,4 +1,4 @@
-html {
+.homepage {
     background: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(./images/photo-1606787366850-de6330128bfc.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -6,11 +6,32 @@ html {
     background-size: cover;
 }
 
-.odin-recipes {
+h1,
+a {
     font-family: "freight-big-pro";
-    font-size: 200px;
     color: white;
-    text-align: center;
+
+}
+
+.odin-recipes {
     letter-spacing: -6.5px;
+    font-size: 200px;
+    text-align: center;
     overflow-wrap: break-world;
+}
+
+.recipe-list{
+    list-style: none;
+    text-align: center;
+}
+
+.recipe-list li {
+    display: inline;
+}
+
+.recipe-list a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 40px;
+    font-weight:100;
 }
