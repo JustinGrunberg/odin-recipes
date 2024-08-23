@@ -9,20 +9,35 @@ html {
 /*General*/
 
 h1,
-h2 {
+h2,
+.recipes-heading {
     font-family: "freight-big-pro";
     color: white;
-    text-align: center;
     overflow-wrap: break-world;
     letter-spacing: -6.5px;
-    font-size: 200px;
+    font-size: 125px;
 }
 
 h2 {
     font-size: 100px; 
 }
 
+p,
+ul,
+ol {
+    color: white;
+    font-family: "freight-big-pro";
+    font-size: 30px;
+
+}
+
+
 /*Homepage*/
+
+.recipes-heading {
+    text-align: center;
+    font-size: 200px;
+}
 
 .recipe-list{
     list-style: none;
