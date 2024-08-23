@@ -6,12 +6,16 @@
     background-size: cover;
 }
 
+/*General*/
+
 h1,
 a {
     font-family: "freight-big-pro";
     color: white;
 
 }
+
+/*Homepage*/
 
 .odin-recipes {
     letter-spacing: -6.5px;
@@ -27,11 +31,14 @@ a {
 
 .recipe-list li {
     display: inline;
+    padding: 20px;
 }
 
 .recipe-list a{
     text-decoration: none;
-    padding: 20px;
     font-size: 40px;
     font-weight:100;
 }
+
+/*Recipe pages*/
+
