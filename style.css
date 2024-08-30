@@ -18,11 +18,13 @@ html {
 
 .container {
     width: 650px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
     color: snow;
     font-family: "freight-big-pro";
-    background: linear-gradient(rgba(0, 0, 0, 0.33),rgba(0, 0, 0, 0.33))
+    background: linear-gradient(rgba(0, 0, 0, 0.33),rgba(0, 0, 0, 0.33));
+    border: 2px solid white;
+    border-radius: 30px;
 }
 
 ul,
@@ -33,7 +35,8 @@ ol {
 li {
     margin-top: 5px;
     margin-bottom: 5px;
-    color: gainsboro
+    color: gainsboro;
+    font-size: 20px;
 }
 
 p {
@@ -53,6 +56,9 @@ img {
 .description {
     text-align: justify;
 }
+.description p {
+    font-size: 20px;
+}
 
 
  .ingredients {
@@ -67,17 +73,24 @@ img {
     width: 75%;
  }
 
+ .recipe-card h1 {
+    font-size: 75px;
+ }
+
+
 
 /*Homepage*/
 
 .homepage-container{
     background: linear-gradient(rgba(0, 0, 0, 0.33),rgba(0, 0, 0, 0.33));
+    margin: 50px 20px;
+    border-radius: 30px;
+    border: 2px solid white;
 }
 
 .recipes-heading {
     text-align: center;
     color: white ;
-    margin: 50px 0;
     font-size: 200px;
 }
 
